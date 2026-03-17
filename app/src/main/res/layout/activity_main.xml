@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:padding="12dp">
+
+    <!-- DISPLAY -->
+
+    <TextView
+        android:id="@+id/display"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="2"
+
+        android:text="0"
+
+        android:textSize="48sp"
+
+        android:gravity="end|bottom"
+
+        android:padding="16dp"/>
+
+
+    <!-- BUTTON GRID -->
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="5"
+
+        android:columnCount="4"
+
+        android:rowCount="5">
+
+        <!-- ROW 1 -->
+
+        <Button android:id="@+id/btnAC" android:text="AC"/>
+        <Button android:text=""/>
+        <Button android:text=""/>
+        <Button android:id="@+id/btnDivide" android:text="÷"/>
+
+        <!-- ROW 2 -->
+
+        <Button android:id="@+id/btn7" android:text="7"/>
+        <Button android:id="@+id/btn8" android:text="8"/>
+        <Button android:id="@+id/btn9" android:text="9"/>
+        <Button android:id="@+id/btnMultiply" android:text="×"/>
+
+        <!-- ROW 3 -->
+
+        <Button android:id="@+id/btn4" android:text="4"/>
+        <Button android:id="@+id/btn5" android:text="5"/>
+        <Button android:id="@+id/btn6" android:text="6"/>
+        <Button android:id="@+id/btnMinus" android:text="-"/>
+
+        <!-- ROW 4 -->
+
+        <Button android:id="@+id/btn1" android:text="1"/>
+        <Button android:id="@+id/btn2" android:text="2"/>
+        <Button android:id="@+id/btn3" android:text="3"/>
+        <Button android:id="@+id/btnPlus" android:text="+"/>
+
+        <!-- ROW 5 -->
+
+        <Button
+            android:id="@+id/btn0"
+
+            android:text="0"
+
+            android:layout_columnSpan="2"
+
+            android:layout_width="0dp"
+
+            android:layout_columnWeight="2"/>
+
+        <Button android:id="@+id/btnDot" android:text="."/>
+        <Button android:id="@+id/btnEquals" android:text="="/>
+
+    </GridLayout>
+
+</LinearLayout>
