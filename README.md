@@ -1,2 +1,18 @@
-# week1_task1_android-calculator-app
-Simple Android calculator with addition, subtraction, multiplication and division built using Kotlin + XML.
+# Android Calculator App
+
+A simple calculator application built using Kotlin and XML.
+
+## Features
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- AC clear button
+- Divide-by-zero protection
+
+## Built With
+
+- Kotlin
+- Android Studio
+- XML Layout
