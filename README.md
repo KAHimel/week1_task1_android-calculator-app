@@ -25,6 +25,6 @@ A simple calculator application built using **Kotlin** and **XML**, developed as
 
 ## 📸 Screenshots
 
-![Image1](images/CalculatorImage1.png)
-![Image2](images/CalculatorImage2.png)
-![Image3](images/CalculatorImage3.png)
+![Image1](images/CalculatorImage1.jpeg)
+![Image2](images/CalculatorImage2.jpeg)
+![Image3](images/CalculatorImage3.jpeg)
