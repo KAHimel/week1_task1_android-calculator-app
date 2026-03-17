@@ -1,6 +1,7 @@
 # 📱 Android Calculator App
 
 A simple calculator application built using **Kotlin** and **XML**, developed as part of my Virtual Internship at **Syntecxhub**.
+
 ---
 
 ## ✨ Features
